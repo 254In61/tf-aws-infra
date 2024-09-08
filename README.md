@@ -1,8 +1,6 @@
 # Overview
 - A small project to build infra on AWS for my lab.
 
-
-
 # Objective
 - Build a VPC
 - Build subnets on the VPC
@@ -28,4 +26,4 @@
 
 
 # How to Destroy
-$ terraform destroy
+$ terraform destroy -var-file vars-dev.tfvars
